@@ -1,0 +1,33 @@
+{
+  "name": "vite-platform",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@tinymce/tinymce-vue": "^4.0.5",
+    "@vueuse/core": "^7.3.0",
+    "element-plus": "^1.2.0-beta.5",
+    "monaco-editor": "^0.30.1",
+    "splitpanes": "^3.0.6",
+    "tinymce": "^5.10.2",
+    "vue": "^3.2.16",
+    "vue-router": "^4.0.12",
+    "vuedraggable": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "@vitejs/plugin-vue-jsx": "^1.3.1",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "path": "^0.12.7",
+    "qs": "^6.10.2",
+    "typescript": "^4.4.3",
+    "unplugin-auto-import": "^0.5.1",
+    "unplugin-vue-components": "^0.17.6",
+    "vite": "^2.6.4",
+    "vue-tsc": "^0.3.0"
+  }
+}
